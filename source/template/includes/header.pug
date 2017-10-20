@@ -1,5 +1,5 @@
 header
-    nav.navbar.navbar-expand-md.navbar-light.bg-light
+    nav.navbar.navbar-expand-md.bg-white
         a.navbar-brand(href="#")
             img(src="" width="60" height="30" alt="blitz-logo")
         button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
@@ -7,22 +7,27 @@ header
         div.collapse.navbar-collapse.justify-content-end#navbarSupportedContent
             ul.navbar-nav.justify-content-around
                 li.nav-item
-                    a.nav-link(href="#")
-                        div HOMEPAGE
-                        div HOME
+                    a.nav-link.active(href="#")
+                        div.nav-link-sub
+                            small HOMEPAGE
+                        div.nav-link-main HOME
                 li.nav-item
                     a.nav-link(href="#")
-                        div WHO ARE WE?
-                        div ABOUT
+                        div.nav-link-sub
+                            small WHO ARE WE?
+                        div.nav-link-main ABOUT
                 li.nav-item
                     a.nav-link(href="#")
-                        div MY PORTFOLIO
-                        div PROJECTS
+                        div.nav-link-sub
+                            small MY PORTFOLIO
+                        div.nav-link-main PROJECTS
                 li.nav-item
                     a.nav-link(href="#")
-                        div LATEST NEWS
-                        div BLOG
+                        div.nav-link-sub
+                            small LATEST NEWS
+                        div.nav-link-main BLOG
                 li.nav-item
                     a.nav-link(href="#")
-                        div GET IN TOUCH
-                        div CONTACT
+                        div.nav-link-sub
+                            small GET IN TOUCH
+                        div.nav-link-main CONTACT
