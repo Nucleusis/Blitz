@@ -38,8 +38,8 @@
 /* slider */
 .carousel-item-blitz
     height: 32rem
-    background-color: #777
 .carousel-item-blitz > img
+    background-color: #777
     position: absolute
     top: 0
     left: 0
@@ -48,6 +48,32 @@
 .carousel-blitz
     margin-bottom: 4rem
 .carousel-caption-blitz
-    bottom: 3rem
+    text-align: left
+    top: 25rem - 4rem
+    left: 0
     z-index: 10
+    padding-top: 0
+.carousel-caption-blitz-onslide
+    background-color: #3f3f3f
+    color: white
+    display: inline-block
+    height: 4rem
+    padding: 0.5rem 1rem
+    small
+        color: #9a9a9a
+.carousel-caption-blitz-below-slide
+    color: #474747
+    padding: 2rem 1rem
+    position: relative
+    &::before
+        content: ""
+        position: absolute
+        bottom: 100%
+        left: 50%
+        margin-left: -15px
+        border-width: 15px
+        border-style: solid
+        border-color: transparent transparent white transparent
+.carousel-indicators-blitz
+    top: 23rem
 /* slider end */
