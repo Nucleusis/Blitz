@@ -19,12 +19,16 @@
     .active::after
         content: ""
         position: absolute
-        top: -50%
-        left: 50%
+        top: 30%
+        left: 10%
         margin-left: -15px
         border-width: 15px
         border-style: solid
-        border-color: #e2e2e2 transparent transparent transparent
+        border-color: transparent transparent transparent #e2e2e2
+        @media (min-width: 768px)
+            top: -50%
+            left: 50%
+            border-color: #e2e2e2 transparent transparent transparent
 .nav-item-blitz
     text-align: center
     text-transform: uppercase
